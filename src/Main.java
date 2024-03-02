@@ -9,5 +9,11 @@ public class Main {
         System.out.print("Ile masz lat? ");
         int age = scan.nextInt();
         System.out.println("Masz na imie " + name + " i masz " + age +" lat ");
+        if (age <18){
+            System.out.println("Jesteś niepełnoletni");
+        }
+        else {
+            System.out.println("Jesteś pełnoletni");
+        }
     }
 }
