@@ -1,3 +1,4 @@
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -14,6 +15,11 @@ public class Main {
         }
         else {
             System.out.println("Jesteś pełnoletni");
+        }
+        Random rand = new Random();
+        System.out.println("Losowanie 6 liczb: ");
+        for (int i = 0; i < 6; i++){
+            System.out.print(rand.nextInt(49)+1 + " ");
         }
     }
 }
