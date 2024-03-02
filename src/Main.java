@@ -1,14 +1,13 @@
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Press Alt+Enter with your caret at the highlighted text to see how
-        // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
 
-        // Press Shift+F10 or click the green arrow button in the gutter to run the code.
-        for (int i = 1; i <= 5; i++) {
-
-            System.out.println("i = " + i*3);
-        }
+        Scanner scan = new Scanner(System.in);
+        System.out.print("Jak się nazywasz? ");
+        String name = scan.nextLine();
+        System.out.print("Ile masz lat? ");
+        int age = scan.nextInt();
+        System.out.println("Mam lat " + age);
     }
 }
