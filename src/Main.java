@@ -8,6 +8,6 @@ public class Main {
         String name = scan.nextLine();
         System.out.print("Ile masz lat? ");
         int age = scan.nextInt();
-        System.out.println("Mam lat " + age);
+        System.out.println("Masz na imie " + name + " i masz " + age +" lat ");
     }
 }
